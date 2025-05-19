@@ -20,13 +20,18 @@ body, html {
 	border-radius: 0;
 	border: 1px solid #113122;
 	background-color: #f0dfc0;
+	color: #113122 !important;
 }
 .panel {
 	border: 1px solid #113122;
 	background-color: #f0dfc0;
 }
 button, html input[type="button"], input[type="reset"], input[type="submit"]{
-    background-color: #113122;
+    background-color: #113122 !important;
     border-color: #113122;
     color: #ffffff;
+}
+
+.panel-footer {
+display: none !important;
 }
