@@ -26,13 +26,15 @@ body, html {
 	border: 1px solid #113122;
 	background-color: #f0dfc0;
 }
-button, html input[type="button"], input[type="reset"], input[type="submit"], input::placeholder{
+button, html input[type="button"], input[type="reset"], input[type="submit"]{
     background-color: #113122 !important;
 	background-image: none !important;
     border-color: #113122;
     color: #ffffff;
 }
-
+input::placeholder{
+    color: #113122 !important;
+}
 .panel-footer {
 display: none !important;
 }
