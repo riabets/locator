@@ -1,0 +1,22 @@
+@font-face {
+	font-family: 'sfizia';
+	src: url('./sfizia-regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+}
+
+body, html {
+	font-family: "sfizia", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	background-color: #f0dfc0;
+	color:#113122;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+	border-radius: 0;
+	border: 1px solid #113122;
+	background-color: #f0dfc0;
+}
