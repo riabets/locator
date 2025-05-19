@@ -11,6 +11,7 @@ body, html {
 	line-height: 1.5;
 	background-color: #f0dfc0;
 	color:#113122;
+	text-transform:uppercase;
 }
 
 .form-group input,
@@ -19,4 +20,13 @@ body, html {
 	border-radius: 0;
 	border: 1px solid #113122;
 	background-color: #f0dfc0;
+}
+.panel {
+	border: 1px solid #113122;
+	background-color: #f0dfc0;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"]{
+    background-color: #113122;
+    border-color: #113122;
+    color: #ffffff;
 }
