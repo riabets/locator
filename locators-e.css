@@ -9,10 +9,35 @@ body, html {
 	font-family: "sfizia", sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
-	background-color: #f0dfc0;
+	background-color: #123223;
 	color: #f0dfc0;
 	text-transform: uppercase;
 }
+::-webkit-scrollbar {
+	height: 10px;
+	background: #e8e9ed;
+}
+
+::-webkit-scrollbar-track {
+	background: #123223;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #123223;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #f0dfc0;
+}
+
+::-webkit-scrollbar-thumb:active {
+	background: #f0dfc0;
+}
+
+::-webkit-scrollbar-corner {
+	background: #123223;
+}
+
 
 .form-group input,
 .form-group select,
@@ -21,6 +46,11 @@ body, html {
 	border: 1px solid #F0DFC0;
 	background-color: #123223;
 	color: #F0DFC0 !important;
+	text-transform: uppercase;
+}
+
+#tab-form, #vipcopyright {
+	width: 100% !important;
 }
 
 .form-control {
@@ -34,13 +64,12 @@ body, html {
 }
 
 .panel {
-	border: 1px solid #F0DFC0;
+	border: 1px solid #123223;
 	background-color: #123223;
 	border-radius: 0;
 }
 
 #form-group-submit .btn {
-	background-image: url("data:image/svg+xml,%3Csvg width='242' preserveAspectRatio='none' height='37' viewBox='0 0 242 37' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.5 6.21892L6.69549 0.5H235.793L241.5 6.2071V31.2801L235.806 36.5H6.68316L0.5 31.2681V6.21892Z' stroke='%23113122'/%3E%3C/svg%3E%0A");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 95% 88%;
@@ -52,9 +81,13 @@ body, html {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	font-size: 1.6rem;
+	font-size: 16px;
 	font-weight: 700;
-	line-height: 46px;
+	line-height: 1;
+	background-color: #113122;
+	color: #f0dfc0;
+	background-image: url("data:image/svg+xml,%3Csvg width='242' preserveAspectRatio='none' height='37' viewBox='0 0 242 37' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.5 6.21892L6.69549 0.5H235.793L241.5 6.2071V31.2801L235.806 36.5H6.68316L0.5 31.2681V6.21892Z' stroke='%23F0DFC0'/%3E%3C/svg%3E%0A");
+	text-transform: uppercase;
 }
 
 input::placeholder {
@@ -106,4 +139,21 @@ button:hover, html input[type="button"]:hover, input[type="reset"]:hover, input[
 	background-color: #123223;
 	border: none;
 	border-bottom-color: transparent;
+}
+
+.panel-body {
+	padding: 30px;
+}
+
+.alert-warning {
+	color: #123223;
+	background-color: #F0DFC0;
+	border-color: #F0DFC0;
+}
+
+.alert {
+	padding: 15px;
+	margin-bottom: 18px;
+	border: 1px solid transparent;
+	border-radius: 0;
 }
