@@ -1,0 +1,109 @@
+@font-face {
+	font-family: 'sfizia';
+	src: url('https://papawsridge.com/wp-content/themes/digitalsilk/assets/vendors/storelocator/sfizia-regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+}
+
+body, html {
+	font-family: "sfizia", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	background-color: #f0dfc0;
+	color: #f0dfc0;
+	text-transform: uppercase;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+	border-radius: 0;
+	border: 1px solid #F0DFC0;
+	background-color: #123223;
+	color: #F0DFC0 !important;
+}
+
+.form-control {
+	font-size: 16px;
+}
+
+.form-control:focus {
+	border-color: #F0DFC0;
+	outline: 0;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.panel {
+	border: 1px solid #F0DFC0;
+	background-color: #123223;
+	border-radius: 0;
+}
+
+#form-group-submit .btn {
+	background-image: url("data:image/svg+xml,%3Csvg width='242' preserveAspectRatio='none' height='37' viewBox='0 0 242 37' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.5 6.21892L6.69549 0.5H235.793L241.5 6.2071V31.2801L235.806 36.5H6.68316L0.5 31.2681V6.21892Z' stroke='%23113122'/%3E%3C/svg%3E%0A");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 95% 88%;
+	border: 1px solid #F0DFC0;
+	--dst--btn-padding-inline: auto;
+	width: 100%;
+	height: 46px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 1.6rem;
+	font-weight: 700;
+	line-height: 46px;
+}
+
+input::placeholder {
+	color: #113122 !important;
+}
+
+.panel-footer {
+	display: none !important;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+	background-image: url("data:image/svg+xml,%3Csvg width='242' preserveAspectRatio='none' height='37' viewBox='0 0 242 37' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.5 6.21892L6.69549 0.5H235.793L241.5 6.2071V31.2801L235.806 36.5H6.68316L0.5 31.2681V6.21892Z' stroke='%23113122'/%3E%3C/svg%3E%0A");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 95% 88%;
+	border: 1px solid #F0DFC0;
+	--dst--btn-padding-inline: auto;
+	width: 100%;
+	height: 46px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 1.6rem;
+	font-weight: 700;
+	line-height: 46px;
+}
+
+#form-group-submit .btn:hover,
+button:hover, html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
+	background-color: #113122;
+	border-color: #f0dfc0;
+	color: #f0dfc0;
+	background-image: url("data:image/svg+xml,%3Csvg width='242' preserveAspectRatio='none' height='37' viewBox='0 0 242 37' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.5 6.21892L6.69549 0.5H235.793L241.5 6.2071V31.2801L235.806 36.5H6.68316L0.5 31.2681V6.21892Z' stroke='%23F0DFC0'/%3E%3C/svg%3E%0A");
+}
+
+.nav-tabs {
+	border-bottom: none;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+	margin-right: 2px;
+	line-height: 1.5;
+	border-radius: 0;
+	color: #F0DFC0;
+	cursor: default;
+	background-color: #123223;
+	border: none;
+	border-bottom-color: transparent;
+}
