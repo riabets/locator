@@ -4,14 +4,16 @@
 	font-weight: 400;
 	font-style: normal;
 }
+
 html {
 	font-family: "sfizia", sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
-	background-color:  #f0dfc0;
+	background-color: #f0dfc0;
 	color: #f0dfc0;
 	text-transform: uppercase;
 }
+
 body {
 	font-family: "sfizia", sans-serif;
 	font-size: 16px;
@@ -20,6 +22,7 @@ body {
 	color: #f0dfc0;
 	text-transform: uppercase;
 }
+
 ::-webkit-scrollbar {
 	height: 10px;
 	background: #e8e9ed;
@@ -27,7 +30,7 @@ body {
 
 ::-webkit-scrollbar-track {
 	background: #123223;
-	border:1px solid #f0dfc0;
+	border: 1px solid #f0dfc0;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -134,8 +137,23 @@ button:hover, html input[type="button"]:hover, input[type="reset"]:hover, input[
 
 .nav-tabs {
 	border-bottom: none;
+	display: flex;
+	width: 100%;
 }
 
+.nav-tabs > li > a {
+	margin-right: 2px;
+	line-height: 1.42857143;
+	border: 1px solid #123223;
+	border-radius: 0;
+	background-color: #F0DFC0;
+	color: #123223;
+	height: 100%;
+}
+.nav-tabs>li>a:hover {
+	border-color: #F0DFC0 #F0DFC0 #F0DFC0;
+	background-color: #F0DFC0;
+}
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
@@ -148,7 +166,13 @@ button:hover, html input[type="button"]:hover, input[type="reset"]:hover, input[
 	border: none;
 	border-bottom-color: transparent;
 }
-
+.panel-primary>.panel-heading {
+	color: #123223;
+	background-color: #F0DFC0;
+	border-color: #F0DFC0;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
 .panel-body {
 	padding: 30px;
 }
